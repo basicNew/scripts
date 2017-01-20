@@ -5,6 +5,7 @@
         st = status
         last = log -1 HEAD
         aa = add . -A
+	ds = diff --staged
         nb = "!new_branch() { \
 		ticketnum=$1; \
 		branchName=$2; \
