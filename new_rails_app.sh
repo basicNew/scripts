@@ -47,4 +47,6 @@ bundle install
 
 rails generate rspec:install
 
-
+git init .
+git add . -A
+git ci -m 'Initial commit'
