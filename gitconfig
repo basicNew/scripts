@@ -5,4 +5,9 @@
         st = status
         last = log -1 HEAD
         aa = add . -A
-        nb = "!new_branch() { ticketnum=$1; branchName=$2; git checkout -b \"Issue#${ticketnum}-${branchName}\"; }; new_branch"
+        nb = "!new_branch() { \
+		ticketnum=$1; \
+		branchName=$2; \
+		git checkout -b \"Issue#${ticketnum}-${branchName}\"; \
+		}; \
+		new_branch"
