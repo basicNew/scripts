@@ -1,0 +1,11 @@
+# To use this file as your ~/.inputrc just create a symlink to it
+
+# Type a couple of letters and hit arrow up to search history back
+"\e[A":history-search-backward
+# And search history forward by hitting the down arrow
+"\e[B":history-search-forward
+
+# Use CMD + left arrow to navigate through long commands
+"\e[1;5C": forward-word
+# Use CMD + right arrow to navigate through long commands
+"\e[1;5D": backward-word
