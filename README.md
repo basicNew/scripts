@@ -10,3 +10,9 @@ Edit your `~.gitconfig` to look like:
 [include]
         path = ~/scripts/gitconfig
 ```
+
+### Bash
+To use the provided `inputrc` as the local one create a symlink to it:
+```
+$ ln -s scripts/bash/inputrc ~/.inputrc
+```
